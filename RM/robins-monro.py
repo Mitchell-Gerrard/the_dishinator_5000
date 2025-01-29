@@ -55,3 +55,8 @@ print(emperical_probability_RM(2.4,2*math.pi))
 print("theta_0, theta^hat: pi + 0.5, 2pi")
 print(theoretical_probability_RM(math.pi+0.5,2*math.pi))
 print(emperical_probability_RM(math.pi+0.5,2*math.pi))
+
+# ... but it sadly seems to break at the endpoints.
+print("theta_0, theta^hat: -2pi, 0")
+print(theoretical_probability_RM(-2*math.pi,0))
+print(emperical_probability_RM(-2*math.pi,0))
