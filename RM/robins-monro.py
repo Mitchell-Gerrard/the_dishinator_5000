@@ -24,7 +24,7 @@ def simulate_RM(theta0):
     return theta
 
 # theta0 is the starting value, thetahat is a root of sin(theta).
-# By running 1000 trials, we estimate the probability of converging
+# By running 5000 trials, we estimate the probability of converging
 # to the right thetahat given that we start at theta0.
 def emperical_probability_RM(theta0,thetahat):
     total_trials = 0
